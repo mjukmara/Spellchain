@@ -7,8 +7,12 @@ public class Spell : MonoBehaviour {
     public int nextSpellCount = 1;
     public List<GameObject> spellPrefabs;
 
-    void Start() {
+    public virtual void Start() {
         StartCoroutine(SpawnNextSpell());
+    }
+
+    public virtual void OnSpellEnd() {
+
     }
 
     public virtual void OnNextSpell(GameObject nextSpell, int index) {
@@ -36,6 +40,7 @@ public class Spell : MonoBehaviour {
             }
         }
 
+        OnSpellEnd();
         Destroy(gameObject);
     }
 }

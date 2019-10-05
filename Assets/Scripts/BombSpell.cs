@@ -6,20 +6,24 @@ public class BombSpell : Spell {
     public Rigidbody2D rb;
     public GameObject explosionPrefab;
 
-    void Start() {
+    public override void Start() {
+        base.Start();
         rb.AddForce(Vector2.up * 100f);
-        StartCoroutine(DelayedExplosion());
     }
 
     void Update() {
 
     }
 
-    IEnumerator DelayedExplosion() {
-        yield return new WaitForSeconds(duration);
+    public override void OnSpellEnd() {
+        base.OnSpellEnd();
         if (explosionPrefab) {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         }
-        Destroy(gameObject);
+    }
+
+    public override void OnNextSpell(GameObject nextSpell, int index) {
+        nextSpell.transform.Rotate(Vector3.forward * (360 / nextSpellCount * index));
+        
     }
 }
