@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FallingSpell : Spell {
+public class DropperSpell : Spell {
 
     public override void Start() {
         base.Start();

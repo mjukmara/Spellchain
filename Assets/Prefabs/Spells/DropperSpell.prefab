@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1978518478629955691}
   - component: {fileID: 1978518478629955688}
   m_Layer: 0
-  m_Name: FallingSpell
+  m_Name: DropperSpell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
