@@ -27,11 +27,10 @@ public class SineSpell : Spell {
     void OnCollisionEnter2D(Collision2D collider) {
 
         if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy")) {
-            Debug.Log("Touched a enemy");
             Enemy enemy = collider.gameObject.GetComponent<Enemy>();
             enemy.TakeDamage(dmg);
-        }
 
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
     }
 }

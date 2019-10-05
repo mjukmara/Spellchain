@@ -15,7 +15,7 @@ public class PlayerSpells : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0)) {
 
             Vector3 mouse = Input.mousePosition;
-            Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.localPosition);
+            Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.position);
             Vector3 offset = new Vector3(mouse.x - screenPoint.x, mouse.y - screenPoint.y, 0);
             float angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
 
