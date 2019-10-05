@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SineSpell : Spell {
 
+    public float speed = 5f;
     public float sineSquish = 1f;
     public float sineSpeed = 1f;
 
@@ -14,7 +15,7 @@ public class SineSpell : Spell {
         float rotate = Mathf.Sin(Mathf.PI / 2 + Time.time * sineSpeed) * sineSquish;
         transform.Rotate(Vector3.forward * rotate);
         Vector3 pos = transform.position;
-        pos += transform.right * Time.deltaTime;
+        pos += transform.right * speed * Time.deltaTime;
         transform.position = pos;
     }
 

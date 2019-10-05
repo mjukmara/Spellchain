@@ -93,8 +93,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb6725ea2d1c0414db661be7a5147401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 1
-  nextSpellPrefabs:
-  - {fileID: 4298863887460714715, guid: 978a7c71c88bf6f44813dce9683d255f, type: 3}
+  duration: 0.2
+  nextSpellCount: 1
+  spellPrefabs: []
+  speed: 5
   sineSquish: 1
   sineSpeed: 2

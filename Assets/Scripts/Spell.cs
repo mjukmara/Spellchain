@@ -24,7 +24,7 @@ public class Spell : MonoBehaviour {
 
         if (spellPrefabs.Count > 0) {
             for (int i=0; i<nextSpellCount; i++) {
-                GameObject go = Instantiate(spellPrefabs[0], transform.position, Quaternion.identity);
+                GameObject go = Instantiate(spellPrefabs[0], transform.position, transform.rotation);
                 Spell spell = go.GetComponent<Spell>();
 
                 if (spellPrefabs.Count > 1) {
