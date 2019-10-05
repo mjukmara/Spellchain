@@ -7,6 +7,7 @@ public class SineSpell : Spell {
     public float speed = 5f;
     public float sineAmplitude = 1f;
     public float sineFrequency = 1f;
+    int dmg = 10;
 
     private float timePassed = 0;
 
@@ -21,5 +22,16 @@ public class SineSpell : Spell {
 
     public override void OnNextSpell(GameObject spell, int index) {
 
+    }
+
+    void OnCollisionEnter2D(Collision2D collider) {
+
+        if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy")) {
+            Debug.Log("Touched a enemy");
+            Enemy enemy = collider.gameObject.GetComponent<Enemy>();
+            enemy.TakeDamage(dmg);
+        }
+
+        Destroy(gameObject);
     }
 }

@@ -16,11 +16,14 @@ public class PlayerSpells : MonoBehaviour
 
             Vector3 mouse = Input.mousePosition;
             Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.localPosition);
-            Vector2 offset = new Vector2(mouse.x - screenPoint.x, mouse.y - screenPoint.y);
+            Vector3 offset = new Vector3(mouse.x - screenPoint.x, mouse.y - screenPoint.y, 0);
             float angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
 
             if (spellPrefabs.Count > 0) {
-                GameObject go = Instantiate(spellPrefabs[0], transform.position, Quaternion.Euler(0, 0, angle));
+
+                Vector3 instantiatePos = transform.position + offset.normalized * 0.5f;
+
+                GameObject go = Instantiate(spellPrefabs[0], instantiatePos, Quaternion.Euler(0, 0, angle));
                 Spell spell = go.GetComponent<Spell>();
 
                 if (spellPrefabs.Count > 1) {
