@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 0.5
-  nextSpellCount: 1
+  nextSpellCount: 3
   spellPrefabs: []
   rb: {fileID: 4552968980529876323}
   explosionPrefab: {fileID: 3850727889420993160, guid: e1eaa835688807c47b27bc1888c2bda5,
