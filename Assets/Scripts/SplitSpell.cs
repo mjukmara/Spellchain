@@ -8,7 +8,6 @@ public class SplitSpell : Spell
     public float angle = 20;
 
     public override void OnNextSpell(GameObject nextSpell, int index) {
-        Debug.Log("Split, index: " + index);
         nextSpellCount = splitCount;
         float offAngle = angle * (index * 2 - 1);
         nextSpell.transform.Rotate(Vector3.forward * offAngle);
