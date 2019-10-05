@@ -31,4 +31,8 @@ public class PlayerSpells : MonoBehaviour
             }
         }
     }
+
+    public void AddSpellPrefab(GameObject spellPrefab) {
+        spellPrefabs.Add(spellPrefab);
+    }
 }
