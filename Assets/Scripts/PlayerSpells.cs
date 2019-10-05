@@ -2,28 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spell : MonoBehaviour {
-    public float duration = 1.0f;
-    public int nextSpellCount = 1;
+public class PlayerSpells : MonoBehaviour
+{
+
     public List<GameObject> spellPrefabs;
 
     void Start() {
-        StartCoroutine(SpawnNextSpell());
-    }
-
-    public virtual void OnNextSpell(GameObject nextSpell, int index) {
 
     }
 
-    public void SetSpellPrefabs(List<GameObject> spellPrefabs) {
-        this.spellPrefabs = spellPrefabs;
-    }
-    
-    IEnumerator SpawnNextSpell() {
-        yield return new WaitForSeconds(duration);
-
-        if (spellPrefabs.Count > 0) {
-            for (int i=0; i<nextSpellCount; i++) {
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+            if (spellPrefabs.Count > 0) {
                 GameObject go = Instantiate(spellPrefabs[0], transform.position, Quaternion.identity);
                 Spell spell = go.GetComponent<Spell>();
 
@@ -32,10 +22,7 @@ public class Spell : MonoBehaviour {
                     nextSpellPrefabs.RemoveAt(0);
                     spell.SetSpellPrefabs(nextSpellPrefabs);
                 }
-                OnNextSpell(go, i);
             }
         }
-
-        Destroy(gameObject);
     }
 }
