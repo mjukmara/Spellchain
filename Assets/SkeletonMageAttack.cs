@@ -11,6 +11,8 @@ public class SkeletonMageAttack : MonoBehaviour {
     public float speed = 1f;
     public float timePassed = 0;
     public bool inited = false;
+    public float volley = 1.0f;
+    public bool constantSpeed = false;
 
     void Start() {
         startPos = transform.position;
@@ -20,10 +22,18 @@ public class SkeletonMageAttack : MonoBehaviour {
     void Update() {
         if (inited) {
             timePassed += Time.deltaTime;
-            float interpTime = Mathf.Clamp(timePassed*speed, 0, 1);
+
+
+            float interpTime;
+            if (constantSpeed) {
+                float distance = Vector3.Distance(startPos, endPos);
+                interpTime = Mathf.Clamp(timePassed * speed / distance, 0, 1);
+            } else {
+                interpTime = Mathf.Clamp(timePassed * speed, 0, 1);
+            }
 
             Vector3 newPos = Vector3.Lerp(startPos, endPos, interpTime);
-            newPos.y += Mathf.Sin(interpTime * Mathf.PI);
+            newPos.y += Mathf.Sin(interpTime * Mathf.PI) * volley;
             transform.position = newPos;
 
             if (interpTime >= 1f) {
