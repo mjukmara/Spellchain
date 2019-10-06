@@ -491,6 +491,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab22d6b8dfcae3478d3481289c7ba91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireRate: 4
+  fireRateIncrease: 0.25
   randomSpellCount: 10
   randomizeWithPrefabs:
   - {fileID: 3076434326758187985, guid: 9c3a5edbc6501cf4f8a5f0eebde87a89, type: 3}
