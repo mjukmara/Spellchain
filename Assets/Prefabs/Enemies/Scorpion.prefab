@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 4780528449366298509, guid: 72d2f3ea53d265b4082e3acd8c7708e0,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Scorpion
       objectReference: {fileID: 0}
     - target: {fileID: 4780528449366298506, guid: 72d2f3ea53d265b4082e3acd8c7708e0,
         type: 3}
@@ -73,5 +73,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4352220757807042492, guid: b507d63bf5c966c479e27d68c466dfc4,
         type: 3}
+    - target: {fileID: 3483375851636083583, guid: 72d2f3ea53d265b4082e3acd8c7708e0,
+        type: 3}
+      propertyPath: jumpHeight
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72d2f3ea53d265b4082e3acd8c7708e0, type: 3}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
+    public Animator animator;
     public CharacterController2D controller;
     public float runSpeed = 40f;
 
@@ -17,13 +18,17 @@ public class PlayerMovement : MonoBehaviour {
     void Update() {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
+        animator.SetFloat("velx", Mathf.Abs(horizontalMove));
+
         if (Input.GetButtonDown("Jump")) {
             jump = true;
         }
     }
 
     void FixedUpdate() {
-        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
-        jump = false;
+        if (animator.GetBool("dead") == false) {
+            controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
+            jump = false;
+        }
     }
 }
