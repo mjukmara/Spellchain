@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerSpells : MonoBehaviour
 {
 
+    public int randomSpellCount = 5;
+    public List<GameObject> randomizeWithPrefabs;
+
     public List<GameObject> spellPrefabs;
 
     void Start() {
@@ -12,6 +15,14 @@ public class PlayerSpells : MonoBehaviour
     }
 
     void Update() {
+        if (Input.GetKeyDown(KeyCode.R)) {
+            spellPrefabs.Clear();
+            for (int i = 0; i < randomSpellCount; i++) {
+                int index = Random.Range(0, randomizeWithPrefabs.Count);
+                spellPrefabs.Add(randomizeWithPrefabs[index]);
+            }
+        }
+
         if (Input.GetKeyDown(KeyCode.Mouse0)) {
 
             Vector3 mouse = Input.mousePosition;

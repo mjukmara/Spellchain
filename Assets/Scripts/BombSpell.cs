@@ -22,6 +22,16 @@ public class BombSpell : Spell {
         if (explosionPrefab) {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
+            Rigidbody2D[] otherRigidbodies = FindObjectsOfType<Rigidbody2D>();
+            foreach (Rigidbody2D otherRigidbody in otherRigidbodies) {
+                float distance = Vector3.Distance(transform.position, otherRigidbody.transform.position);
+                if (distance < 1.5f) {
+                    Vector3 d = otherRigidbody.transform.position - transform.position;
+                    d.Normalize();
+                    otherRigidbody.AddForce(d * 400f);
+                }
+            }
+
             Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, 1f);
             foreach (Collider2D collider in hitColliders) {
                 if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy")) {
