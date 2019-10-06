@@ -46,7 +46,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -144,55 +144,55 @@ MonoBehaviour:
   clips:
   - name: Blip_Select5
     clip: {fileID: 8300000, guid: 111779b0ab6e52343ad8f3820fc55f6d, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Explosion2
     clip: {fileID: 8300000, guid: 88bd556cd61e50c4e96e7f6a721aed84, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Hit
     clip: {fileID: 8300000, guid: d89cf71d78cab874a9710753e597ca57, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Hit_Hurt
     clip: {fileID: 8300000, guid: 6e6a559ec344e21438043011950817b3, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Hit_Hurt2
     clip: {fileID: 8300000, guid: 8554b2d9e778db34e8309f90a647368e, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Hit_Hurt3
     clip: {fileID: 8300000, guid: fb816d28adf9c12478c845a7865163bb, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Hit_Hurt10
     clip: {fileID: 8300000, guid: d7326a18d87997845888c8a8e8177a76, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Jump
     clip: {fileID: 8300000, guid: 3290b3b36579c734b96cae483c33d156, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Laser_Shoot2
     clip: {fileID: 8300000, guid: 13dcf143ffe794e459e02e4fc7c3b3ea, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Laser_Shoot4
     clip: {fileID: 8300000, guid: c7b8dc869e4d09b47a8c20ed51f81ae7, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Laser_Shoot6
     clip: {fileID: 8300000, guid: 05e52b0133fa6fd418e6b6b218661942, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Pickup_Coin6
     clip: {fileID: 8300000, guid: c1e235cd1769fb44ea80178de26a38f2, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Powerup
     clip: {fileID: 8300000, guid: 657dbdc6b2c56da4e97f4261ac3cff0f, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Randomize5
     clip: {fileID: 8300000, guid: 802dc7cc140c6d04fb6b4aeb3c288c0c, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Randomize10
     clip: {fileID: 8300000, guid: 94bb46d5a4c81dc4bae66060706723e3, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Randomize20
     clip: {fileID: 8300000, guid: 82e8480c59352c848b18ec45ea4cdfcd, type: 3}
-    volume: 0.15
+    volume: 0.05
   - name: Shoot
     clip: {fileID: 8300000, guid: fd2afd342e9fda44eb22d1f4f43c7194, type: 3}
-    volume: 0.3
+    volume: 0.1
   - name: Randomize13
     clip: {fileID: 8300000, guid: 73711e085339b3d4f8fbd22ef7121901, type: 3}
-    volume: 0.3
+    volume: 0.1

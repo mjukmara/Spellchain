@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1651774893131586926}
   - component: {fileID: -1048416823554761292}
   - component: {fileID: -7269578997639895773}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HomingSpell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
