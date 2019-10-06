@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 5898482736000543337}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a763c39a82084e642afc9cfa3c16038c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 5898482736000543337}
   m_JumpForce: 500
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
@@ -491,8 +491,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab22d6b8dfcae3478d3481289c7ba91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomSpellCount: 5
-  randomizeWithPrefabs: []
+  randomSpellCount: 10
+  randomizeWithPrefabs:
+  - {fileID: 3076434326758187985, guid: 9c3a5edbc6501cf4f8a5f0eebde87a89, type: 3}
+  - {fileID: 1651774893131586927, guid: 41d28fd4e8133824e9e5cacebdb049c0, type: 3}
+  - {fileID: 4552968980529876325, guid: 514f03ed41be3bb41b72eae569cc12bc, type: 3}
+  - {fileID: 1978518478629955684, guid: f1290bec9cd7128409f443df3b93bad4, type: 3}
+  - {fileID: 4298863887460714715, guid: 031b944ffbdefa64a8a487f7de0ae009, type: 3}
+  - {fileID: 2648951052641921359, guid: e535a098c9bb3814e8c330c257c588cb, type: 3}
+  - {fileID: 4298863887460714715, guid: 81c0d8752c37a0f40a62a366b1276a1b, type: 3}
+  - {fileID: 5403186245681773490, guid: b6c2b81001d96b4449faf53199a91193, type: 3}
+  - {fileID: 4298863887460714715, guid: 978a7c71c88bf6f44813dce9683d255f, type: 3}
   spellPrefabs: []
 --- !u!114 &8856929579297792100
 MonoBehaviour:
