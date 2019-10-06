@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
 
     public void TakeDamage(int damage) {
         healthBar.TakeDamage(damage);
+        AudioManager.PlaySfx("Hit_Hurt2");
         if (healthBar.hp == 0) {
             animator.SetBool("dead", true);
         }

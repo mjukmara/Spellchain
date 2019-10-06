@@ -24,7 +24,7 @@ public class PlayerSpells : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse0)) {
-
+            AudioManager.PlaySfx("Shoot");
             Vector3 mouse = Input.mousePosition;
             Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.position);
             Vector3 offset = new Vector3(mouse.x - screenPoint.x, mouse.y - screenPoint.y, 0);

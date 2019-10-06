@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int dmg) {
         healthBar.TakeDamage(dmg);
         if (healthBar.hp == 0) {
+            AudioManager.PlaySfx("Hit_Hurt");
             Destroy(gameObject);
         }
     }

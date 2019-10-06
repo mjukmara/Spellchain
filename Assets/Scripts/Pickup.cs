@@ -18,6 +18,7 @@ public class Pickup : MonoBehaviour {
             if (pickupType.spellPrefab) {
                 playerSpells.AddSpellPrefab(pickupType.spellPrefab);
             }
+            AudioManager.PlaySfx("Powerup");
             Destroy(gameObject);
         }
     }

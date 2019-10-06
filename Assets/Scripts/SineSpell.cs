@@ -11,6 +11,12 @@ public class SineSpell : Spell {
 
     private float timePassed = 0;
 
+    public override void Start() {
+        base.Start();
+
+        AudioManager.PlaySfx("Randomize10");
+    }
+
     void Update() {
         timePassed += Time.deltaTime;
         float rotate = Mathf.Sin(Mathf.PI / 2 + Time.time * sineFrequency) * sineAmplitude;

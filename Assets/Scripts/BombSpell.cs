@@ -22,6 +22,8 @@ public class BombSpell : Spell {
         if (explosionPrefab) {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
+            AudioManager.PlaySfx("Explosion2");
+
             Rigidbody2D[] otherRigidbodies = FindObjectsOfType<Rigidbody2D>();
             foreach (Rigidbody2D otherRigidbody in otherRigidbodies) {
                 float distance = Vector3.Distance(transform.position, otherRigidbody.transform.position);

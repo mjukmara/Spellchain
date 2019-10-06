@@ -6,6 +6,7 @@ public class DropperSpell : Spell {
 
     public override void Start() {
         base.Start();
+        AudioManager.PlaySfx("Hit");
     }
 
     void Update() {
