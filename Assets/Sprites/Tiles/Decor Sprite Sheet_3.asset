@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Decor Sprite Sheet_3
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 3081909984533280174, guid: 3b1afa291f96d314aae5204ac3e7b8db,
+  m_Sprite: {fileID: 3081909984533280174, guid: 2ee3f99f25748994781ab75af9a11456,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:

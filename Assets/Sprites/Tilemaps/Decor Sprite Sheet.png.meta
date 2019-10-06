@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b1afa291f96d314aae5204ac3e7b8db
+guid: 2ee3f99f25748994781ab75af9a11456
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -20,6 +20,51 @@ TextureImporter:
   - first:
       213: -567208357179797016
     second: Decor Sprite Sheet_5
+  - first:
+      213: -781773165547229689
+    second: Decor Sprite Sheet_6
+  - first:
+      213: -2289254504761422726
+    second: Decor Sprite Sheet_7
+  - first:
+      213: 3134584473308475099
+    second: Decor Sprite Sheet_8
+  - first:
+      213: -4175095339407553477
+    second: Decor Sprite Sheet_9
+  - first:
+      213: -6564933244679934342
+    second: Decor Sprite Sheet_10
+  - first:
+      213: -89193294490866938
+    second: Decor Sprite Sheet_11
+  - first:
+      213: 2285396739687864870
+    second: Decor Sprite Sheet_12
+  - first:
+      213: 6155096184127035602
+    second: Decor Sprite Sheet_13
+  - first:
+      213: -1816512529751927062
+    second: Decor Sprite Sheet_14
+  - first:
+      213: 178371935565215022
+    second: Decor Sprite Sheet_15
+  - first:
+      213: 3280423301323184131
+    second: Decor Sprite Sheet_16
+  - first:
+      213: -4341823105690497390
+    second: Decor Sprite Sheet_17
+  - first:
+      213: 8047575923378082493
+    second: Decor Sprite Sheet_18
+  - first:
+      213: -6302656767187267427
+    second: Decor Sprite Sheet_19
+  - first:
+      213: -8552530083953906009
+    second: Decor Sprite Sheet_20
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -121,16 +166,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 65
+        width: 66
         height: 48
-      alignment: 9
+      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e6c8895cbf34c9429a872310f106753
+      spriteID: 6a7b3b9cc1eac3449a16bea4c502eff3
       internalID: 2361064753044324872
       vertices: []
       indices: 
@@ -151,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c6f15a33bb4a1e4cba781b58df6be1d
+      spriteID: b040068dd5d86074eb89505a92366d0a
       internalID: 520468735354086579
       vertices: []
       indices: 
@@ -159,6 +204,300 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: Decor Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a406918f1a4e58e4ba50771baabf0d90
+      internalID: -9060206962168607431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec429921956544595e59f01e28cb23
+      internalID: 3081909984533280174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a91f332f98a724b8c165601d332381
+      internalID: 6467078549763434307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da4a03cf93d92346b239f639f52094f
+      internalID: -567208357179797016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ace3766147ccbd478bc7e2d4d63d7d6
+      internalID: -781773165547229689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bfd4d93d16bf94bae2b62a95428d3a
+      internalID: -2289254504761422726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d96aff8c70d7b944bf98b6aa7aadefa
+      internalID: 3134584473308475099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 8, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d2404478105df4fb5cb2758c3b4870
+      internalID: -4175095339407553477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e89d17d8d568e43b4fdc0186f35faa
+      internalID: -6564933244679934342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf3890210d25c74bbdc04854f3a67c6
+      internalID: -89193294490866938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5671a3c421237514789882970fe516b5
+      internalID: 2285396739687864870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047f71c3a741d6f4b9183a9bae7e0ca4
+      internalID: 6155096184127035602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7f57a35f11f6946b5f2f00fe2f7304
+      internalID: -1816512529751927062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12816506b11231479d73e05fc0883a8
+      internalID: 178371935565215022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_16
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 316e5d5d28becd04f9270bbfcd77e080
-      internalID: -9060206962168607431
+      spriteID: 7b935261f9eaf7b41988a1fd21c6a4dc
+      internalID: 3280423301323184131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Decor Sprite Sheet_3
+      name: Decor Sprite Sheet_17
       rect:
         serializedVersion: 2
         x: 16
@@ -193,19 +532,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31f92475a8706a44594250393ab552c9
-      internalID: 3081909984533280174
+      spriteID: 9d197655318d0774883ea1a598061953
+      internalID: -4341823105690497390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Decor Sprite Sheet_4
+      name: Decor Sprite Sheet_18
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 112
-        width: 14
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -214,19 +553,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73dc7a098d569c24abc7662fae5dad03
-      internalID: 6467078549763434307
+      spriteID: 64ee580523c5fa24c8f5cc062ac20a51
+      internalID: 8047575923378082493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Decor Sprite Sheet_5
+      name: Decor Sprite Sheet_19
       rect:
         serializedVersion: 2
         x: 47
         y: 112
-        width: 14
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -235,8 +574,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a4a524f54ee8443a99a4e2471f2c07
-      internalID: -567208357179797016
+      spriteID: ce54e84f207a5184685bdf624fba3505
+      internalID: -6302656767187267427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decor Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3bb8d60a8acd04d9463c0a81953ee8
+      internalID: -8552530083953906009
       vertices: []
       indices: 
       edges: []
