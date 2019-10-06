@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerSpells : MonoBehaviour
 {
-
     public float fireRate = 3f;
     public float fireRateIncrease = 0.25f;
     private float fireCooldown;
@@ -16,6 +15,14 @@ public class PlayerSpells : MonoBehaviour
 
     void Start() {
 
+    }
+
+    public float getMaxCooldown() {
+        return 1f / fireRate + fireRateIncrease * spellPrefabs.Count;
+    }
+
+    public float getCooldown() {
+        return fireCooldown;
     }
 
     void Update() {

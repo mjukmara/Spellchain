@@ -20,7 +20,7 @@ public class HealthBar : MonoBehaviour {
         UpdateGreenBar();
     }
 
-    void UpdateGreenBar() {
+    public void UpdateGreenBar() {
         Vector3 scale = greenBar.localScale;
         scale.x = (float)hp / (float)maxHp;
         greenBar.localScale = scale;

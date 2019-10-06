@@ -5,7 +5,15 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public Animator animator;
+    public PlayerSpells playerSpells;
     public HealthBar healthBar;
+    public HealthBar cooldownBar;
+
+    void Update() {
+        cooldownBar.maxHp = (int)(playerSpells.getMaxCooldown()*100);
+        cooldownBar.hp = (int)(playerSpells.getCooldown()*100);
+        cooldownBar.UpdateGreenBar();
+    }
 
     public void TakeDamage(int damage) {
         healthBar.TakeDamage(damage);
