@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e92edfe428863ba478c545b1858486a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 0.4
+  duration: 0.7
   nextSpellCount: 1
   spellPrefabs: []
   delayedActivation: 0.1
