@@ -12,20 +12,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sine Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 4932796325565777089, guid: d0c686b3657a43a40b83d7c251dcd20c,
+        type: 3}
+      propertyPath: pickupType
+      value: 
+      objectReference: {fileID: 11400000, guid: ef942fb6749438e4ba48a3c7c3eed90d,
+        type: 2}
+    - target: {fileID: 4932796325565777116, guid: d0c686b3657a43a40b83d7c251dcd20c,
+        type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4932796325565777119, guid: d0c686b3657a43a40b83d7c251dcd20c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.514681
+      value: -21.5
       objectReference: {fileID: 0}
     - target: {fileID: 4932796325565777119, guid: d0c686b3657a43a40b83d7c251dcd20c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3662915
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4932796325565777119, guid: d0c686b3657a43a40b83d7c251dcd20c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.6411039
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4932796325565777119, guid: d0c686b3657a43a40b83d7c251dcd20c,
         type: 3}
@@ -67,11 +78,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932796325565777089, guid: d0c686b3657a43a40b83d7c251dcd20c,
-        type: 3}
-      propertyPath: pickupType
-      value: 
-      objectReference: {fileID: 11400000, guid: ef942fb6749438e4ba48a3c7c3eed90d,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0c686b3657a43a40b83d7c251dcd20c, type: 3}
