@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerSpells : MonoBehaviour
 {
 
+    public float fireRate = 3f;
+    public float fireRateIncrease = 0.25f;
+    private float fireCooldown;
+
     public int randomSpellCount = 5;
     public List<GameObject> randomizeWithPrefabs;
 
@@ -15,6 +19,12 @@ public class PlayerSpells : MonoBehaviour
     }
 
     void Update() {
+        fireCooldown -= Time.deltaTime;
+        if (fireCooldown < 0) {
+            fireCooldown = 0f;
+        }
+
+
         if (Input.GetKeyDown(KeyCode.R)) {
             spellPrefabs.Clear();
             for (int i = 0; i < randomSpellCount; i++) {
@@ -24,7 +34,8 @@ public class PlayerSpells : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse0)) {
-            if (spellPrefabs.Count > 0) {
+            if (spellPrefabs.Count > 0 && fireCooldown <= 0) {
+                fireCooldown = 1f / fireRate + fireRateIncrease * spellPrefabs.Count;
                 AudioManager.PlaySfx("Shoot");
                 Vector3 mouse = Input.mousePosition;
                 Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.position);
