@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EyeAttack
       objectReference: {fileID: 0}
+    - target: {fileID: 7208156482381434285, guid: cc9b380f3d0c6d14d84faec54e6d9cab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 7208156482381434283, guid: cc9b380f3d0c6d14d84faec54e6d9cab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -81,6 +86,31 @@ PrefabInstance:
         type: 3}
       propertyPath: constantSpeed
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795579950825240363, guid: cc9b380f3d0c6d14d84faec54e6d9cab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208156481797802957, guid: cc9b380f3d0c6d14d84faec54e6d9cab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795579951896441845, guid: cc9b380f3d0c6d14d84faec54e6d9cab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795579952040137602, guid: cc9b380f3d0c6d14d84faec54e6d9cab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795579952185295140, guid: cc9b380f3d0c6d14d84faec54e6d9cab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc9b380f3d0c6d14d84faec54e6d9cab, type: 3}
