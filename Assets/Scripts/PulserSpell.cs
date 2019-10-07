@@ -20,10 +20,10 @@ public class PulserSpell : Spell
     IEnumerator Pulse() {
         InstantiateNextSpell(15);
         AudioManager.PlaySfx("Randomize20");
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.4f);
         InstantiateNextSpell(15);
         AudioManager.PlaySfx("Randomize20");
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.4f);
         InstantiateNextSpell(15);
         AudioManager.PlaySfx("Randomize20");
     }

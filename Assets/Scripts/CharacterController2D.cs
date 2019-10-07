@@ -3,7 +3,11 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour {
 
+    public bool grounded = false;
     public Animator animator;
+    public ParticleSystem Dust;
+    public GameObject jumpEffect;
+    public Transform Feet;
 
     [SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
     [Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
@@ -56,6 +60,7 @@ public class CharacterController2D : MonoBehaviour {
                     OnLandEvent.Invoke();
             }
         }
+        grounded = m_Grounded;
     }
 
 
@@ -109,6 +114,7 @@ public class CharacterController2D : MonoBehaviour {
             // Add a vertical force to the player.
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            Instantiate(jumpEffect, Feet.position, Feet.rotation);
             animator.SetTrigger("jump");
             AudioManager.PlaySfx("Jump");
         }

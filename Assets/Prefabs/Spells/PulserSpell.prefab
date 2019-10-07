@@ -93,6 +93,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff0927d608056744a20d1f9ba9653aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 0.5
+  duration: 0.8
   nextSpellCount: 1
   spellPrefabs: []

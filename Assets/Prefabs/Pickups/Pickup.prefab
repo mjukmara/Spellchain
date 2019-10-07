@@ -429,6 +429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 548a3c3b6bcc33741b9b76831e5647c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PE: {fileID: 7414495248610575954, guid: 9829886ede7cead4bbbfed9034335ca7, type: 3}
+  ThisObject: {fileID: 4932796325565777119}
   pickupType: {fileID: 0}
   text: {fileID: 2653403750312777878}
 --- !u!61 &4932796325565777116

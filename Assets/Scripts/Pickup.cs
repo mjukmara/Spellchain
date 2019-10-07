@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Pickup : MonoBehaviour {
 
+    public GameObject PE;
+    public Transform ThisObject;
     public PickupType pickupType;
     public Text text;
 
@@ -18,6 +20,7 @@ public class Pickup : MonoBehaviour {
             if (pickupType.spellPrefab) {
                 playerSpells.AddSpellPrefab(pickupType.spellPrefab);
             }
+            Instantiate(PE, ThisObject.position, ThisObject.rotation);
             AudioManager.PlaySfx("Powerup");
             Destroy(gameObject);
         }
